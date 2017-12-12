@@ -1,37 +1,301 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Portfolio||Curie Hong</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Vollkorn+SC" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+  .container {
+    padding-top : 80px;
+    padding-bottom: 120px;
+	}
+    
+  .circlePhoto {
+    border: 10px solid transparent;
+    margin-bottom: 25px;
+    width: 30%;
+    height: 30%;
+    opacity: 0.7;
+	}
+	.circlephoto:hover {
+	    -moz-box-shadow: 0 0 10px #ccc;
+		-webkit-box-shadow: 0 0 10px #ccc;
+		box-shadow: 0 0 10px #ccc;
+	
+    }
+    
+    .circlePhoto2{
+    border = 10px solid transparent;
+    margin-bottom: 25px;
+    opacity: 0.7;
+    }
+    
+    
+    .carousel-caption h3 {
+    color: #fff !important;
+    }
+    @media (max-width: 600px) {
+    .carousel-caption {
+        display: none;
+}
 
-You can use the [editor on GitHub](https://github.com/curieh2/curieh2.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+}
+	
+.pacFont {
+	font-family: 'Pacifico', cursive;
+}
+.questFont{
+	font-family: 'Questrial', sans-serif;
+}
+.VFont{
+font-family: 'Vollkorn SC', serif;
+}
+.carousel-inner img { 
+    width: 100%; /* Set width to 100% */
+    margin: auto;
+}
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+.row{
+max-width: 99%;
+}
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+.nav-tabs li a {
+    color: #777;
+}
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
 
-- Bulleted
-- List
+.navbarWidth{
+padding-top: 1px;
+padding-bottom:1px;
+}
 
-1. Numbered
-2. List
+.navbar {
+    margin-bottom: 0;
+    background-color: #2d2d30;
+    border: 0;
+    font-size: 11px !important;
+    letter-spacing: 4px;
+    opacity:0.9;
+}
 
-**Bold** and _Italic_ and `Code` text
+/* Add a gray color to all navbar links */
+.navbar li a, .navbar .navbar-brand { 
+    color: #d5d5d5 !important;
+}
 
-[Link](url) and ![Image](src)
-```
+/* On hover, the links will turn white */
+.navbar-nav li a:hover {
+    color: #fff !important;
+}
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+/* The active link */
+.navbar-nav li.active a {
+    color: #fff !important;
+    background-color:#29292c !important;
+}
 
-### Jekyll Themes
+/* Remove border color from the collapsible button */
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+}
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/curieh2/curieh2.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+/* Dropdown */
+.open .dropdown-toggle {
+    color: #fff ;
+    background-color: #555 !important;
+}
 
-### Support or Contact
+/* Dropdown links */
+.dropdown-menu li a {
+    color: #000 !important;
+}
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+/* On hover, the dropdown links will turn red */
+.dropdown-menu li a:hover {
+    background-color: red !important;
+}
+
+
+  </style>
+</head>
+<body id="home" data-spy="scroll" data-target=".navbar" data-offset="50">
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="http://gdurl.com/JmU5" alt="GWCDisneyAnimation">
+      <div class="carousel-caption">
+        <h3 class = "pacFont">Girls Who Code Disney</h3>
+        <p class = "questFont">Animation Studios Tour</p>
+      </div> 
+    </div>
+
+    <div class="item">
+      <img src="http://gdurl.com/oXI7" alt="GWCDisneyD23">
+      <div class="carousel-caption">
+        <h3 class = "pacFont">Girls Who Code Disney</h3>
+        <p class = "questFont">Exclusive D23 Expo Tour</p>
+      </div> 
+    </div>
+
+    <div class="item">
+      <img src="http://gdurl.com/enDX" alt="GWCDisney Graduation">
+      <div class="carousel-caption">
+        <h3 class = "pacFont">Girls Who Code Disney</h3>
+        <p class = "questFont">GWC Disney Graduation || Disney & Teaching Staff</p>
+      </div> 
+    </div>
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+
+
+
+
+
+<div id = "aboutMe" class="container text-center">
+  <h3 class = "pacFont">Portfolio || Curie Hong</h3>
+  <p class = "questFont"><em><strong>“Don’t cry because it’s over, smile because it happened.”<br>– Dr. Seuss<br><br><br>
+
+  <p class = "questFont">Hello, welcome! My name is Curie, and I am an incoming Freshman at University of Illinois Urbana Champaign as a Computer Science major.<br><br>
+
+I have a heavy background on CS Education. I had the privilege of starting coding during the Summer of my 9th grade year through Code Academy. The interest I developed through the experience carried on with me, as I took various AP courses throughout my high school years in which I learned the languages of Java, Python, and C++.<br><br>
+
+During the Summer of my 11th Grade year, I encountered a life changing program called Girls Who Code which created a comfortable environment for girls to pursue programming in an atmosphere of support and encouragement. The program not only provided extremely valuable networks and experiences for me, but further inspired me to found the Womens STEM Club at my school, which carries on the motive of GIrls Who Code - to create a comfortable and encouraging environment for Girls to Code in.<br><br>
+
+I have been fortunate enough to be hired as a Girls Who Code Teacher Assistant at The Walt Disney Company for two years - an opportunity to give back to the program that has significantly impacted my life. I am currently pursuing a B.S. in Computer Science at University of Illinois Urbana-Champaign, while continuing to spread the need and encouragement of women to join the STEM fields.</p>
+<br>
+  <div class="container-fluid bg-1 text-center">
+    <p class = "pacFont"><strong>Curie Hong</strong></p>
+    <a href="#collapsedesign" data-toggle="collapse">
+      <img src="http://gdurl.com/B9iN" class="img-circle circlePhoto" alt="Profile Photo" width="255" height="255">
+      </a>
+      <div id="collapsedesign" class="collapse">
+      <p class = "questFont">University of Illinois at Urbana Champaign '17</p>
+      <p class = "questFont">B.S. Computer Science</p>
+    </div>
+  </div>
+
+
+
+<div id = "projects" class="container text-center">
+  <h3 class = "pacFont">Projects</h3>
+  <br>
+  <div class="row container-fluid text-center">
+    <div class="col-sm-4">
+      <p class = "questFont"><strong>VR Polar Bear Unity Project - Assited (GWC '16)</strong></p><br>
+      <a href="#img2" data-toggle="collapse">
+      <img src="http://gdurl.com/Dqh3" class="img-circle circlePhoto2" width = "255" height = "255" alt="polarbear">
+      </a>
+      <div id="img2" class="collapse">
+      <img src="http://gdurl.com/oITH" class = "img-circle circlePhoto2" alt="UnityPolar" width="255" height="255">
+      <p class = "questFont"> Assisted student-led VR Poar Bear project coded in Unity using C#. Made compatible with iPhone and Google Cardboard. Animated Scenes with coded water movement, asset movement, ect. </p>
+    </div>
+    </div>
+    <div class="col-sm-4">
+      <p class = "questFont"><strong>VR Pacman Unity Project - Assisted (GWC '17)</strong></p><br>
+      <a href="#img3" data-toggle="collapse">
+      <img src="http://gdurl.com/1Jjl" class="img-circle circlePhoto2" width = "255" height = "255" alt="pacman">
+      </a>
+      <div id="img3" class="collapse">
+      <img src="http://gdurl.com/Yzql" class = "img-circle circlePhoto2" alt="pac" width="255" height="255">
+      <p class = "questFont"> Assisted student-led VR Pacman Project coded in Unity using C#. Made compatible with Andriod devices. Used Unity as well as Android SDK. First-Person character game in which POV moves forward in the direction the player is facing.</p>
+    </div>
+    </div>
+    <div class="col-sm-4">
+      <p class = "questFont"><strong>Coding in Java (WIS '16-'17)</strong></p><br>
+      <a href="#img4" data-toggle="collapse">
+      <img src="http://gdurl.com/V_Sk" class="img-circle circlePhoto2" width = "255" height = "255" alt="java">
+      </a>
+      <div id="img4" class="collapse">
+      <p class = "questFont"> Project in which members of STEM club teach local elementary school girls the java coding language to spark early interest in programming. Project is expanding to more students in the Burbank area, carried on by the current members of the STEM club.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+  
+  
+
+
+<h3 id = "contact" class="text-center container pacFont">Social Media Links</h3> 
+<ul class="nav nav-tabs">
+  <li class="active"><a data-toggle="tab" href="#linkedin">LinkedIn</a></li>
+  <li><a data-toggle="tab" href="#facebook">Facebook</a></li>
+  <li><a data-toggle="tab" href="#personal">Personal Contact Information</a></li>
+</ul>
+
+<div class="tab-content">
+  <div id="linkedin" class="tab-pane fade in active">
+    <h2 class = "VFont">LinkedIn</h2>
+     <a href="https://www.linkedin.com/in/curie-h-615535123/"><img src="http://gdurl.com/MQOa" alt="linkedinLogo"></a>
+  </div>
+  <div id="facebook" class="tab-pane fade">
+    <h2 class = "VFont">Facebook</h2>
+    <a href="https://www.facebook.com/curiehong"><img src="http://gdurl.com/l3vm" alt="facebookLogo"></a>
+  </div>
+  <div id="personal" class="tab-pane fade">
+    <h2 class = "VFont">Email & Phone Number</h2>
+    <p class = "questFont">eMail:</p>
+    <p class = "questFont">Business: curieh2@illinois.edu</p>
+    <p class = "questFont">Personal: qurie.hong@gmail.com</p>
+    <br>
+    <p class = "questFont">Phone Number: 818-813-1353   ** Business Inquiries only ** </p>
+    <img src="http://gdurl.com/ak_T" alt="gmailLogo">
+  </div>
+</div>
+
+
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="navbarWidth">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+      </button>
+      <a class="navbar-brand pacFont" href="#">Curie Hong</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#home">HOME</a></li>
+        <li><a href="#aboutMe">ABOUT ME</a></li>
+        <li><a href="#projects">PROJECTS</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+</body>
+</html>

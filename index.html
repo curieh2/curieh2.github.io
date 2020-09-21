@@ -131,7 +131,7 @@ padding-bottom:1px;
 .dropdown-menu li a:hover {
     background-color: red !important;
 }
-	  
+/*	  
 .fa-linkedin {
   background: #007bb5;
   color: white;
@@ -147,6 +147,38 @@ padding-bottom:1px;
 }
 .fa:hover {
     opacity: 0.7;
+}
+*/
+.smGlobalBtn{ /* global button class */
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    box-shadow: 0 2px 2px #999;
+    padding: 0px;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+    font-weight: normal;
+    line-height: 2em;
+    border-radius: 25px;
+    -moz-border-radius:25px;
+    -webkit-border-radius:25px;
+}
+.linkedinBtn{
+    background: #0094BC;
+}
+
+.linkedinBtn:before{
+      font-family: "FontAwesome";
+      content: "\f0e1"; /* add linkedin icon */
+}
+
+.linkedinBtn:hover{
+      color: #0094BC;
+      background: #fff;
 }
 
 
@@ -270,7 +302,7 @@ padding-bottom:1px;
     <p class = "questFont"** Business Inquiries only ** </p>
   </div>
   <div id="linkedin" class="tab-pane">
-        <a href="https://www.linkedin.com/in/curie-hong/" class="fa fa-linkedin"></a>
+        <a class = "linkedinBtn smGlobalBtn" href="https://www.linkedin.com/in/curie-hong/"></a>
   </div>
 </div>
 

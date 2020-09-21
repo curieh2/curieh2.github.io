@@ -255,11 +255,11 @@ padding-bottom:1px;
 
 <h3 id = "contact" class="text-center container pacFont">Contact</h3> 
 <ul class="nav nav-tabs">
-	<li class="nav-item active"><a a class="active" data-toggle="tab" href="#personal">Personal Contact Information</a></li>
+	<li class="nav-item active"><a id = "contactButton" class="active" data-toggle="tab" href="#personal">Personal Contact Information</a></li>
 	<li><a data-toggle="tab" href="#linkedin">Social Media</a></li>
 </ul>
 <div class="tab-content">
-  <div id="personal" class="tab-pane show">
+  <div id="personal" class="tab-pane">
     <h2 class = "VFont">Email & Phone Number</h2>
     <p class = "questFont">eMail</p>
     <p class = "questFont">Business: curieh2@illinois.edu</p>
@@ -271,8 +271,6 @@ padding-bottom:1px;
         <a href="https://www.linkedin.com/in/curie-hong/" class="fa fa-linkedin"></a>
   </div>
 </div>
-
-
 
 <nav class="navbar navbar-default navbar-fixed-top">
   <div class="navbarWidth">
@@ -295,4 +293,10 @@ padding-bottom:1px;
   </div>
 </nav>
 </body>
+	
+<script>
+window.onload = function(){
+	document.getElementById("contactButton").click();
+}
+</script>
 </html>
